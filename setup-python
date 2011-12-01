@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#### python
+sudo apt-get install -y python-setuptools
+sudo easy_install blockdiag
+sudo easy_install sphinx

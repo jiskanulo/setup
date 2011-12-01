@@ -1,0 +1,44 @@
+#!/bin/bash
+
+#php
+sudo apt-get install -y php5
+sudo apt-get install -y php5-mysql
+sudo apt-get install -y php5-dev
+sudo apt-get install -y php-pear
+sudo apt-get install -y php-apc
+sudo apt-get install -y php5-mcrypt
+sudo apt-get install -y php5-xdebug
+sudo apt-get install -y php5-curl
+sudo apt-get install -y php5-gd
+
+#pear
+sudo pear channel-discover pear.phpunit.de
+sudo pear channel-discover components.ez.no
+sudo pear channel-discover pear.symfony-project.com
+sudo pear channel-discover pear.phing.info
+sudo pear channel-discover pear.pdepend.org
+sudo pear channel-discover pear.phpmd.org
+sudo pear update-channels
+sudo pear upgrade -a
+
+sudo pear install Net_URL2
+sudo pear install HTTP_Request2
+sudo pear install XML_RPC2
+sudo pear install phpunit/PHPUnit
+sudo pear install phing/phing
+sudo pear install pdepend/PHP_Depend
+sudo pear install phpmd/PHP_PMD
+sudo pear install phpunit/phpcpd
+sudo pear install phpunit/ppw
+sudo pear install PHP_Beautifier
+sudo pear install PHPDocumentor
+sudo pear install Console_Color
+
+#phpunitrunner
+sudo pear channel-discover pear.piece-framework.com
+sudo pear update-channels
+sudo pear install piece/stagehand_testrunner
+
+#for make apc
+sudo apt-get install -y libpcre3 libpcre3-dev make
+sudo pecl install apc

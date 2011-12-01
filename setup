@@ -1,0 +1,30 @@
+#!/bin/bash
+
+#### desktop utilities
+sudo apt-get install -y clamav
+sudo apt-get install -y gufw
+sudo apt-get install -y ibus-mozc
+sudo apt-get install -y libnotify-bin
+sudo apt-get install -y impressive
+# for opera japanese input
+sudo apt-get install -y ibus-qt4
+# fonts
+sudo apt-get install -y ttf-inconsolata
+# font utilities
+sudo apt-get install -y fontforge
+
+#### cli utilities
+sudo apt-get install -y byobu
+sudo apt-get install -y sysv-rc-conf
+sudo apt-get install -y curl
+sudo apt-get install -y make
+sudo apt-get install -y source-highlight
+sudo apt-get install -y cronolog
+
+#### development tools
+sudo apt-get install -y subversion
+sudo apt-get install -y git
+sudo apt-get install -y tig
+
+#### editors
+sudo apt-get install -y vim

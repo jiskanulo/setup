@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# get plugins plugins via apt
+sudo apt-add-repository ppa:ubuntu-on-rails/ppa
+sudo apt-get update -y
+sudo apt-get install -y gedit-gmate
+sudo apt-get install -y gedit-plugins
+sudo apt-get install -y gedit-developer-plugins
+
+TMP=/tmp/gedit-plugin-install
+PLUGIN_DIR=~/.local/share/gedit/plugins
+
+# cleanup tmp dir
+rm -rf $TMP   || { exit 1; }
+mkdir -p $TMP || { exit 1; }
+cd $TMP       || { exit 1; }
+
+git clone git://github.com/Quixotix/gedit-source-code-browser.git
+git clone git://github.com/jonleighton/gedit-trailsave.git
+git clone git://github.com/adam-yorba/gedit-file-search.git
+
+cd gedit-file-search
+git checkout gedit-3
+cd $TMP
+
+mkdir -p $PLUGIN_DIR
+
+cp -r gedit-source-code-browser/sourcecodebrowser* $PLUGIN_DIR
+cp -r gedit-trailsave/trailsave.* $PLUGIN_DIR
+cp -r gedit-file-search/file-search* $PLUGIN_DIR
+
+echo "all done."
