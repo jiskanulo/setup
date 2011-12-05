@@ -32,6 +32,7 @@ sudo pear install phpunit/phpcpd
 sudo pear install phpunit/ppw
 sudo pear install PHP_Beautifier
 sudo pear install PHPDocumentor
+sudo pear install PHP_CodeSniffer
 sudo pear install Console_Color
 
 #phpunitrunner
