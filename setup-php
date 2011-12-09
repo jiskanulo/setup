@@ -18,6 +18,7 @@ sudo pear channel-discover pear.symfony-project.com
 sudo pear channel-discover pear.phing.info
 sudo pear channel-discover pear.pdepend.org
 sudo pear channel-discover pear.phpmd.org
+sudo pear channel-discover pear.piece-framework.com
 sudo pear update-channels
 sudo pear upgrade -a
 
@@ -34,10 +35,6 @@ sudo pear install PHP_Beautifier-0.1.15
 sudo pear install PHPDocumentor
 sudo pear install PHP_CodeSniffer
 sudo pear install Console_Color
-
-#phpunitrunner
-sudo pear channel-discover pear.piece-framework.com
-sudo pear update-channels
 sudo pear install piece/stagehand_testrunner
 
 #for make apc
