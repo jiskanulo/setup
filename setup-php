@@ -30,7 +30,7 @@ sudo pear install pdepend/PHP_Depend
 sudo pear install phpmd/PHP_PMD
 sudo pear install phpunit/phpcpd
 sudo pear install phpunit/ppw
-sudo pear install PHP_Beautifier
+sudo pear install PHP_Beautifier-0.1.15
 sudo pear install PHPDocumentor
 sudo pear install PHP_CodeSniffer
 sudo pear install Console_Color
@@ -42,4 +42,5 @@ sudo pear install piece/stagehand_testrunner
 
 #for make apc
 sudo apt-get install -y libpcre3 libpcre3-dev make
+
 sudo pecl install apc
