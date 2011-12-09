@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#### add-apt-repository requires python-software-properties
+sudo apt-get install -y python-software-properties
+
 #### desktop utilities
 sudo apt-get install -y clamav
 sudo apt-get install -y gufw
