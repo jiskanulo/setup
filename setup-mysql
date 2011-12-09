@@ -2,4 +2,4 @@
 
 #### mysql server and client
 sudo apt-get install -y mysql-server
-sudo apt-get install -y mysql
+sudo apt-get install -y mysql-client
