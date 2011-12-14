@@ -25,6 +25,8 @@ sudo apt-get install -y curl
 sudo apt-get install -y make
 sudo apt-get install -y source-highlight
 sudo apt-get install -y cronolog
+sudo apt-get install -y nkf
+sudo apt-get install -y optipng
 
 #### development tools
 sudo apt-get install -y subversion
