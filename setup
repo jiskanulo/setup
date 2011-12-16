@@ -37,6 +37,8 @@ sudo apt-get install -y source-highlight
 sudo apt-get install -y cronolog
 sudo apt-get install -y nkf
 sudo apt-get install -y optipng
+sudo apt-get install -y festival
+sudo apt-get install -y rlwrap
 
 #### development tools
 sudo apt-get install -y subversion
