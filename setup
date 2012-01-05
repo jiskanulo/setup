@@ -25,6 +25,7 @@ sudo apt-get install -y impressive
 sudo apt-get install -y ibus-qt4
 # fonts
 sudo apt-get install -y ttf-inconsolata
+sudo apt-get install -y ttf-vlgothic
 # font utilities
 sudo apt-get install -y fontforge
 
