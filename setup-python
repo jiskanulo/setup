@@ -4,3 +4,4 @@
 sudo apt-get install -y python-setuptools
 sudo easy_install blockdiag
 sudo easy_install sphinx
+sudo easy_install sphinxcontrib-blockdiag
