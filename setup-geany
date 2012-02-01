@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo apt-add-repository ppa:geany-dev/ppa
+
+sudo apt-get update
+sudo apt-get install geany
