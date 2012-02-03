@@ -33,6 +33,7 @@ sudo apt-get install -y fontforge
 sudo apt-get install -y byobu
 sudo apt-get install -y sysv-rc-conf
 sudo apt-get install -y curl
+sudo apt-get install -y nmap
 sudo apt-get install -y make
 sudo apt-get install -y source-highlight
 sudo apt-get install -y nkf
