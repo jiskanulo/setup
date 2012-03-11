@@ -4,3 +4,4 @@
 sudo apt-get install -y apache2
 # add module
 sudo a2enmod rewrite
+sudo a2enmod ssl
