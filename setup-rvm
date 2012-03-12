@@ -2,3 +2,6 @@
 
 #### rvm
 bash < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
+
+# Install required packages
+sudo apt-get install zlib1g-dev
