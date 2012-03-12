@@ -9,6 +9,7 @@ sudo apt-get install -y php5-mcrypt
 sudo apt-get install -y php5-curl
 sudo apt-get install -y php5-gd
 sudo apt-get install -y php5-cgi
+sudo apt-get install -y php5-fpm
 
 #pear
 sudo pear channel-discover pear.phpunit.de
