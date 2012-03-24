@@ -26,6 +26,7 @@ sudo pear install Net_URL2
 sudo pear install HTTP_Request2
 sudo pear install XML_RPC2
 sudo pear install phpunit/PHPUnit
+sudo pear install phpunit/PHPUnit_SkeletonGenerator
 sudo pear install phing/phing
 sudo pear install pdepend/PHP_Depend
 sudo pear install phpmd/PHP_PMD
